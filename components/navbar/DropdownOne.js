@@ -31,7 +31,10 @@ const DropdownOne = () => {
         {
           ["financial services", "IT consulting services", "For leisure, travel, and tourism"].map(
             (string,i)=>(
-              <div className='flex justify-between border-2 border-transparent rounded-2xl cursor-pointer hover:border-blue-600 group items-center px-4'>
+              <div 
+                key = {i}
+                className='flex justify-between border-2 border-transparent rounded-2xl cursor-pointer hover:border-blue-600 group items-center px-4'
+              >
                 <span>For {string}</span>
                 <ArrowRight
                   className='transition group-hover:text-blue-600 group-hover:translate-x-2'

@@ -1,23 +1,6 @@
-'use client'
-import { ChevronUp } from 'lucide-react'
-import Image from 'next/image'
-import Link from 'next/link'
-import React, { useState } from 'react'
-import { DropdownTransition } from './fadeInAndOutWrapper'
-import { AnimatePresence } from 'framer-motion'
-import DropdownOne from './DropdownOne'
-import DropdownTwo from './DropdownTwo'
-import DropdownThree from './DropdownThree'
+import React from 'react'
 
-
-
-const Navbar = () => {
-//   0 = None, 1 = Overview, 2 = Features, 3 = Learn&Support
-  const [dropdown, setDropdown] = useState(0)
-  const triggerDropdown = (dropItem) =>{
-    if(dropdown === dropItem) setDropdown(0)
-    else setDropdown(dropItem)
-  }
+const MobileNavbar = () => {
   return (
     <nav className='sticky top-0 flex justify-between px-10 border h-[80px]'>
       <div id ="left-nav" className='flex gap-7 text-lg text-gray-600 items-center'>
@@ -107,4 +90,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default MobileNavbar
