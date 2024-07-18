@@ -8,7 +8,7 @@ const EngagementSection = () => {
     <section>
       <div className='w-full shapedividers h-[10rem]'/>
       <div className='w-full bg-engagement'>
-        <div className='block md:grid grid-cols-12 pl-10 pr-10 pt-32 pb-10 gap-5'>
+        <div className='block md:grid grid-cols-12 pl-20 pr-10 pt-32 pb-10 gap-5'>
           <div className='col-span-12 uppercase text-lg text-black'>
             Employee Engagement
           </div>
