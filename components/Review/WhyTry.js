@@ -25,7 +25,7 @@ const WhyTry = () => {
                     ["Drive performance", "Design the continuous performance management process your teams need to succeed."],
                     ["Cultivate resilience", "Foster a sense of belonging and purpose-driven work with tools to nurture relationships and build stronger workplaces."]
                 ].map(([title, desc], i) => (
-                    <div className='flex flex-col gap-3'>
+                    <div className='flex flex-col gap-3' key = {i}>
                         <h1 className='text-2xl font-semibold'>
                             {title}
                         </h1>
