@@ -8,7 +8,7 @@ const ReviewComponent = () => {
             Officevibe is inexpensive, simple to start, and
             easy to use. Your team will thank you for it.
         </div>
-        <div className='grid grid-cols-2 px-2 py-5'>
+        <div className='flex justify-center px-2 py-5'>
             <div className='flex flex-col items-center justify-center gap-4'>
                 <img
                     src = "/brand/brand-stars.svg"
