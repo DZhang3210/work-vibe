@@ -3,12 +3,12 @@ import React from 'react'
 
 const ReviewComponent = () => {
   return (
-    <div className='w-full flex flex-col items-center py-20 gap-10'>
-        <div className='text-3xl'>
-            Officevibe is inexpensive, simple to start, and <br/>
+    <div className='w-full flex flex-col items-center py-20 px-10 text-center gap-10'>
+        <div className='text-3xl max-w-2xl'>
+            Officevibe is inexpensive, simple to start, and
             easy to use. Your team will thank you for it.
         </div>
-        <div className='grid grid-cols-2 px-28'>
+        <div className='grid grid-cols-2 px-2 py-5'>
             <div className='flex flex-col items-center gap-4'>
                 <img
                     src = "/brand/brand-stars.svg"

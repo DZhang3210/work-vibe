@@ -1,18 +1,21 @@
 import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
+import UseInView from '../Hero/UseInView'
 
 const AssessComponent = () => {
   return (
     <div className='w-full bg-blue-300 py-20'>
       <div className='grid grid-cols-0 md:grid-cols-10 px-10'>
         <div className='col-span-5 order-2 md:order-1 flex items-center justify-center'>
+          <UseInView>
             <Image
                 src = "/Officevibe-clipboard.webp"
                 alt = "Assessment Logo"
                 width = {1840}
                 height = {1472}
             />
+          </UseInView>
         </div>
         <div className='col-span-5 flex flex-col gap-5 items-start order-1 md:order-2 mb-7'>
             <div className='text-lg roboto-mono'>
