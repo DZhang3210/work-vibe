@@ -10,24 +10,24 @@ const BrandCarousel = () => {
     <div className='logo-container flex flex-col items-center justify-center w-full h-[10rem] gap-10 mt-10'>
         <div className='logos w-[60vw]'>
             <div className='logos-slide'>
-                <img src="./logos/3m.svg" />
-                <img src="./logos/barstool-store.svg" />
-                <img src="./logos/budweiser.svg" />
-                <img src="./logos/buzzfeed.svg" />
-                <img src="./logos/forbes.svg" />
-                <img src="./logos/macys.svg" />
-                <img src="./logos/menshealth.svg" />
-                <img src="./logos/mrbeast.svg" />
+                <img src="./logos/3m.svg" alt="logo"/>
+                <img src="./logos/barstool-store.svg" alt="logo"/>
+                <img src="./logos/budweiser.svg" alt="logo"/>
+                <img src="./logos/buzzfeed.svg" alt="logo"/>
+                <img src="./logos/forbes.svg" alt="logo"/>
+                <img src="./logos/macys.svg" alt="logo"/>
+                <img src="./logos/menshealth.svg" alt="logo"/>
+                <img src="./logos/mrbeast.svg" alt="logo"/>
             </div>
             <div className='logos-slide'>
-                <img src="./logos/3m.svg" />
-                <img src="./logos/barstool-store.svg" />
-                <img src="./logos/budweiser.svg" />
-                <img src="./logos/buzzfeed.svg" />
-                <img src="./logos/forbes.svg" />
-                <img src="./logos/macys.svg" />
-                <img src="./logos/menshealth.svg" />
-                <img src="./logos/mrbeast.svg" />
+                <img src="./logos/3m.svg" alt="logo"/>
+                <img src="./logos/barstool-store.svg" alt="logo"/>
+                <img src="./logos/budweiser.svg" alt="logo"/>
+                <img src="./logos/buzzfeed.svg" alt="logo"/>
+                <img src="./logos/forbes.svg" alt="logo"/>
+                <img src="./logos/macys.svg" alt="logo"/>
+                <img src="./logos/menshealth.svg" alt="logo"/>
+                <img src="./logos/mrbeast.svg" alt="logo"/>
             </div>
         </div>
       </div>
