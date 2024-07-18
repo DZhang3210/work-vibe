@@ -3,10 +3,10 @@ import React from 'react'
 
 const DropdownOne = () => {
   const dropItems = [
-    [<MessageCircleCode className='text-blue-600'/>, "Engagement", "Act on real-time, insightful employee feedback to build a workplace that attracts and retains top talent."],
-    [<Rocket className='text-blue-600'/>, "Performance Management",  "Give HR the flexibility to build, customize and automate a continuous performance process."],
-    [<Trophy className='text-blue-600'/>, "Recognition", "Create a workplace culture that encourages employees to recognize each other."],
-  ]
+    [<MessageCircleCode key="logo1" className='text-blue-600'/>, "Engagement", "Act on real-time, insightful employee feedback to build a workplace that attracts and retains top talent."],
+    [<Rocket key="logo2" className='text-blue-600'/>, "Performance Management",  "Give HR the flexibility to build, customize and automate a continuous performance process."],
+    [<Trophy key="logo3" className='text-blue-600'/>, "Recognition", "Create a workplace culture that encourages employees to recognize each other."],
+  ];
   return (
     <div className='block md:grid grid-cols-4 gap-3 pb-8'>
       {

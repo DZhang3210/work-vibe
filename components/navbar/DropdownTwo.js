@@ -3,18 +3,18 @@ import React from 'react'
 
 const DropdownTwo = () => {
   const navItems = [
-    [<ClipboardCheck/>, "Performance Reviews", true],
-    [<Rocket/>, "Continuous Performance", true],
-    [<MessageSquareText/>, "Automated Pulse Surveys", false],
-    [<MessageCircleCode/>, "Anonymous Feedback & Messaging"],
-    [<GoalIcon/>, "Goal & OKRs"],
-    [<NotebookText/>, "One-on-one meetings"],
-    [<Sparkles/>, "Good Vibes recognition"],
-    [<Proportions/>, "Reports"],
-    [<SquarePen/>, "Custom employee surveys"],
-    [<Compass/>, "Leadership and conversation"],
-    [<MessageSquareText/>, "Survey meeting templates"],
-  ]
+    [<ClipboardCheck key="icon1" />, "Performance Reviews", true],
+    [<Rocket key="icon2" />, "Continuous Performance", true],
+    [<MessageSquareText key="icon3" />, "Automated Pulse Surveys", false],
+    [<MessageCircleCode key="icon4" />, "Anonymous Feedback & Messaging"],
+    [<GoalIcon key="icon5" />, "Goal & OKRs"],
+    [<NotebookText key="icon6" />, "One-on-one meetings"],
+    [<Sparkles key="icon7" />, "Good Vibes recognition"],
+    [<Proportions key="icon8" />, "Reports"],
+    [<SquarePen key="icon9" />, "Custom employee surveys"],
+    [<Compass key="icon10" />, "Leadership and conversation"],
+    [<MessageSquareText key="icon11" />, "Survey meeting templates"],
+  ];
 
   return (
     <div className='block md:grid grid-cols-3 gap-x-5 grid-rows-4 grid-flow-col pb-8'>
