@@ -19,7 +19,7 @@ const Navbar = () => {
     else setDropdown(dropItem)
   }
   return (
-    <nav className='sticky top-0 flex justify-between px-10 border h-[80px]'>
+    <nav className='fixed top-0 left-0 right-0 flex justify-between px-10 border h-[80px] z-[100] bg-white'>
       <div id ="left-nav" className='flex gap-7 text-lg text-gray-600 items-center'>
         <div className='flex items-center gap-1'>
             <Image

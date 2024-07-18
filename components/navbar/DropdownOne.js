@@ -8,7 +8,7 @@ const DropdownOne = () => {
     [<Trophy className='text-blue-600'/>, "Recognition", "Create a workplace culture that encourages employees to recognize each other."],
   ]
   return (
-    <div className='grid grid-cols-4 gap-3'>
+    <div className='block md:grid grid-cols-4 gap-3 pb-8'>
       {
       dropItems.map(([logo, title, par], i)=>(
         <div key = {i} className='mt-2 transition flex flex-col gap-3 p-6 border-2 border-transparent rounded-2xl cursor-pointer hover:border-blue-600 group'>
@@ -21,7 +21,7 @@ const DropdownOne = () => {
             className='transition group-hover:text-blue-600 group-hover:translate-x-2'
           />
         </div>
-        <p className='text-md text-gray-500'>
+        <p className='text-md text-gray-500 hidden md:inline'>
           {par}
         </p>
       </div>
@@ -33,7 +33,7 @@ const DropdownOne = () => {
             (string,i)=>(
               <div 
                 key = {i}
-                className='flex justify-between border-2 border-transparent rounded-2xl cursor-pointer hover:border-blue-600 group items-center px-4'
+                className='flex justify-between border-2 border-transparent rounded-2xl cursor-pointer hover:border-blue-600 group items-center py-2 px-6'
               >
                 <span>For {string}</span>
                 <ArrowRight

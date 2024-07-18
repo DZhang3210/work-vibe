@@ -17,7 +17,7 @@ const DropdownTwo = () => {
   ]
 
   return (
-    <div className='grid grid-cols-3 gap-x-5 grid-rows-4 grid-flow-col'>
+    <div className='block md:grid grid-cols-3 gap-x-5 grid-rows-4 grid-flow-col pb-8 overflow-y-scroll'>
         {
           navItems.map(([icon, title, newItem = false],i)=>(
             <div className='flex justify-between p-3 items-center group group-hover transition border-2 rounded-xl border-transparent cursor-pointer hover:border-blue-600' key ={i}>
